@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+html {
+  background-color: #A47da4;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size:20px;
+}
+div {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+}
