@@ -23,6 +23,7 @@ div.socials {
   justify-content:center;
   align-items:center;
   padding: 10px;
+  margin-bottom: 40px;
 }
 .button {
   cursor:pointer;
