@@ -1,4 +1,4 @@
-function myFunction() {
+function inspiringfigures() {
   var x = document.getElementById("inspiringfigures");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -6,7 +6,7 @@ function myFunction() {
     x.style.display = "none";
   }
 } 
-function myFunction1() {
+function resources() {
   var x = document.getElementById("resources");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -14,7 +14,7 @@ function myFunction1() {
     x.style.display = "none";
   }
 } 
-function myFunction2() {
+function services() {
   var x = document.getElementById("services");
   if (x.style.display === "none") {
     x.style.display = "block";
