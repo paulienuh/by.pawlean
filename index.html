@@ -32,18 +32,41 @@
   <body>
    
     <div>
-      <h1 class="fadeInDown">by Pawlean</h1>
+      <br>
+      <img src="Logo.png" class="logo fadeInDown"/>
     </div>
       <p>
-        <a href="https://pawlean.com" target="_blank" class="button pulse">blog</a>
-        <a href="https://inspiringfigures.co" target="_blank" class="button pulse">inspiring figures</a>
+        <a href="https://pawlean.com" target="_blank" class="button pulse" >blog</a>
+        <a onclick="myFunction()" class="button pulse">inspiring figures</a>
+        <div id="inspiringfigures">
+          <ul>
+            <li><a href="https://inspiringfigures.co" target="_blank" >Website</a></li>
+            <li><a href="" target="_blank">YouTube Live</a></li>
+            <li><a href="" target="_blank">Blog posts</a></li>
+          </ul>
+        </div>
         <a href="https://youtube.com/paulinenarvas" target="_blank" class="button pulse">videos</a>
         <a target="_blank" class="no-button pulse">podcasts</a>
-        <a target="_blank" class="no-button pulse">services</a>
-        <a  target="_blank" class="no-button pulse">guides</a>
-        <a  target="_blank" class="no-button pulse">resources</a>
+        <a class="button pulse" onclick="myFunction2()">services</a>
+        <div id="services">
+          <ul>
+            <li><a href="" target="_blank">Website development & maintaince</a></li>
+            <li><a href="" target="_blank">Speaking at your event!</a></li>
+            <li><a href="" target="_blank">Social media presence consultation</a></li>
+            <li><a href="" target="_blank">Mentoring</a></li>
+          </ul>
+        </div>
+        <a class="no-button pulse" onclick="myFunction1()">resources</a>
+        <div id="resources">
+          <ul>
+            <li><a href="" target="_blank">Guides</a></li>
+            <li><a href="" target="_blank">How to</a></li>
+            <li><a href="" target="_blank">Website templates (HTML)</a></li>
+            <li><a href="" target="_blank">Wordpress templates (PHP)</a></li>
+          </ul>
+        </div>
       </p>
 
-    <script src="" async defer></script>
+    <script src="functions.js" async defer></script>
   </body>
 </html>
