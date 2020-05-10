@@ -70,7 +70,8 @@ a.no-button{
 }
 .social-icon {
   color: white;
-  letter-spacing: 10px;
+  letter-spacing: 20px;
+  font-size: 20pt;
 }
 a.social-icon:hover{
   color: #69526a;
