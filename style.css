@@ -1,32 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
 
 body {
-  background-color: #A47da4;
-  font-family: 'Roboto', sans-serif;
+  background-color: #a47da4;
+  font-family: "Roboto", sans-serif;
 }
 h1 {
   text-align: center;
   color: white;
-  font-size:50px;
+  font-size: 50px;
 }
 div.header {
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 100px;
-  width:100%;
+  width: 100%;
 }
 div.socials {
   width: 300px;
   margin: 0 auto;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
   margin-bottom: 40px;
 }
 .button {
-  cursor:pointer;
+  cursor: pointer;
   padding: 10px;
   width: 200px;
   border: 1px solid white;
@@ -35,19 +35,19 @@ div.socials {
   margin: 20px auto;
   text-align: center;
 }
-a.button{
+a.button {
   color: white;
   text-decoration: none;
 }
 a.button:hover {
   background-color: white;
-  color:#A47da4;
+  color: #a47da4;
   animation-duration: 3s;
   animation-delay: 0s;
   animation-iteration-count: pulse;
 }
 .no-button {
-  cursor:wait;
+  cursor: wait;
   width: 200px;
   border: 1px solid rgb(191, 191, 191);
   padding: 10px;
@@ -56,7 +56,7 @@ a.button:hover {
   margin: 20px auto;
   text-align: center;
 }
-a.no-button{
+a.no-button {
   color: rgb(191, 191, 191);
   text-decoration: none;
 }
@@ -72,33 +72,36 @@ a.no-button{
   color: white;
   letter-spacing: 20px;
   font-size: 20pt;
-
-
 }
-a.social-icon:hover{
+a.social-icon:hover {
   color: #69526a;
 }
-#inspiringfigures, #resources, #services {
+#inspiringfigures,
+#resources,
+#services {
   display: none;
-  background: #FFFFFF;
+  background: #ffffff;
   margin-top: 0px;
   width: 200px;
   padding: 10px;
   margin: 0 auto;
   border-radius: 5px;
-  color: #A47da4;
+  color: #a47da4;
 }
 ul {
   list-style-type: square;
   padding-left: 25px;
+  text-align: center;
+}
+li {
+  padding-bottom: 20px;
 }
 li a {
-
   font-family: Arial, Helvetica, sans-serif;
   line-height: 20px;
-  color: #A47da4;
+  color: #a47da4;
   text-decoration: none;
 }
 li a:hover {
-  border-bottom: 3px solid #A47da4;
+  border-bottom: 3px solid #a47da4;
 }
