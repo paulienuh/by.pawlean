@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+
+body {
+  background-color: #a47da4;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+.item-a,
+.item-b,
+.item-c,
+.item-d,
+.item-e,
+.item-f,
+.item-g,
+.item-h {
+  border: 3px solid #ffffff;
+  padding: 50px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 25pt;
+  height: 100px;
+  width: 150px;
+}
+#inspiringfigures,
+#resources,
+#services {
+  display: none;
+  background: #ffffff;
+  margin-top: 0px;
+  width: 200px;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+  color: #a47da4;
+}
